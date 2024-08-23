@@ -1,11 +1,10 @@
 {
   "name": "prepack",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node ./test.js",
-    "build": "node ./build.js",
+    "build": "node ./test.js && touch built-it.js",
     "prepack": "npm run build"
   },
   "repository": {
@@ -20,5 +19,7 @@
   "homepage": "https://github.com/joeljameswatson/prepack#readme",
   "dependencies": {
     "snakecase-keys": "^8.0.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
