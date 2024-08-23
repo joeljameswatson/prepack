@@ -4,9 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./test.js",
-    "build": "node ./test.js && touch built-it.js",
+    "build": "echo build",
     "prepare": "echo prepare",
     "prepack": "echo prepack",
+    "preinstall": "echo preinstall",
     "postinstall": "echo installed"
   },
   "repository": {
