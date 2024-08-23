@@ -5,7 +5,8 @@
   "scripts": {
     "test": "node ./test.js",
     "build": "node ./test.js && touch built-it.js",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "postinstall": "echo installed"
   },
   "repository": {
     "type": "git",
