@@ -23,6 +23,8 @@
   "dependencies": {
     "snakecase-keys": "^8.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "workaround-broken-npm-prepack-behavior": "https://github.com/cspotcode/workaround-broken-npm-prepack-behavior#59e32763ce19d087062b6ce287a21ee00d9a7187"
+  },
   "description": ""
 }
