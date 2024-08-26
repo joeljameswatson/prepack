@@ -5,7 +5,7 @@
   "scripts": {
     "test": "node ./test.js",
     "build": "echo build",
-    "prepare": "echo prepare",
+    "prepare": "workaround-broken-npm-prepack-behavior prepack",
     "prepack": "echo prepack",
     "preinstall": "echo preinstall",
     "postinstall": "echo installed"
